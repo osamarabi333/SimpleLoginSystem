@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="container d-flex align-items-center justify-content-center my-5 ">
+        <div class="signup-content text-center d-flex flex-column w-75 gap-4 m-5">
+          <h1 class="mb-1">Smart Login System</h1>
+          <div class="m-auto w-75">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your Name"
+              id="userNameInput"
+            />
+          </div>
+          <div class="m-auto w-75">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              id="emailInput"
+            />
+          </div>
+          <div class="m-auto w-75">
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Enter Your Password"
+              id="passwordInput"
+            />
+          </div>
+          <p id="alertMassage" class="d-none"></p>
+          <button id="signUpBtn" class="btn btn-outline-info w-75 m-auto">Sign up</button>
+          <p class="text-white pb-3">
+            Already have an account? <a href="index.html" class="text-white">Sign in</a>
+          </p>
+        </div>
+      </div>
+      <script src="js/bootstrap.bundle.js.map"></script>
+      <script src="js/signUp.js"></script>
+</body>
+</html>
